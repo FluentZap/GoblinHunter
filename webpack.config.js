@@ -56,12 +56,12 @@ module.exports = {
                     'css-loader'
                 ]
             },
-            {
-                //Rules for linter
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: "eslint-loader"
-            },
+            // {
+            //     //Rules for linter
+            //     test: /\.js$/,
+            //     exclude: /node_modules/,
+            //     loader: "eslint-loader"
+            // },
             // {
             //     test: /\.m?js$/,
             //     exclude: /(node_modules|bower_components)/,
