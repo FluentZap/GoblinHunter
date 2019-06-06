@@ -1,0 +1,42 @@
+ .terminal, .game {
+   display: block;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  height: 30em;
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.terminal {
+  z-index: 100;
+
+
+}
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#term1 { 
+  /* top: 70%; */
+  margin-top: 15px;
+}
+
+
+#term2 {
+  /* margin-top: 400px;   */
+  
+}
+
+.game {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  background: white;
+}
